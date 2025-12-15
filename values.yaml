@@ -1,0 +1,12 @@
+grafana:
+  adminPassword: "admin123"
+  service:
+    type: NodePort
+prometheus:
+  service:
+    type: NodePort
+alertmanager:
+  service:
+    type: NodePort
+prometheus-node-exporter:
+  enabled: false
